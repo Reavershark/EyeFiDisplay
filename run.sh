@@ -1,4 +1,4 @@
 #!/bin/sh
-python2 EyeFiServer/Release\ 2.0/EyeFiServer.py -c Settings.ini &
+python2 server/EyeFiServer.py -c settings.ini &
 startx /usr/bin/i3
 kill $!
